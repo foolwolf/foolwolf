@@ -1,0 +1,1 @@
+[xml]$bp=Get-ExchangeDiagnosticInfo  -Process EdgeTransport -Component ResourceThrottling; $bp.Diagnostics.Components.ResourceThrottling.ResourceTracker.ResourceMeter 
